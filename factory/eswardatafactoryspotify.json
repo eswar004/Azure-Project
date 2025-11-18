@@ -1,0 +1,9 @@
+{
+	"name": "eswardatafactoryspotify",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b13cdfe2-6257-427c-97cb-f862152d2237",
+		"tenantId": "1c1c4301-ed34-4c7c-904b-8130a0905e16"
+	}
+}
