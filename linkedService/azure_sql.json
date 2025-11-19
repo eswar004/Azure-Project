@@ -1,0 +1,17 @@
+{
+	"name": "azure_sql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "eswarspotifyserversql.database.windows.net",
+			"database": "eswarSpotifyDBsql",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "admineswar",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEFENEI4MDkyLTJGQzQtNDU1Mi1BQTM2LUUxRTk2RTNDQUY0Rl9iMjhjODBjYy05ZDRmLTQ2ZmQtODE2NS1lMTMxZDJiYWZiZDkiDQp9"
+		}
+	}
+}
